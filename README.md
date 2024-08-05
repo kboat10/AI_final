@@ -8,11 +8,11 @@ For our project, we built and deployed a recommendation system using a combinati
 * Features
 * Installation
 * Usage
+   * Downloading and Opening the Repository
+   * Running the application
 * Hosting
-* Local Server
-* Cloud Deployment
+   * Local Server
 * Project Structure
-* License
 
 # Overview
 The recommendation system leverages various machine learning algorithms and techniques to preprocess data, generate embeddings, and build a recommendation model. It is implemented in Python and uses libraries such as TensorFlow, Scikit-Learn, and Streamlit for the web application.  
@@ -46,3 +46,15 @@ Run the Jupyter Notebook for data preprocessing and model training:
 ~code: jupyter notebook runstream.ipynb
 Run the Streamlit web application:
 ~code: streamlit run streamlit.py
+
+# Hosting
+To host the application on a local server, follow these steps:
+1.Ensure you have completed the Installation steps.
+2.Run the Streamlit application:
+~code: streamlit run streamlit.py
+
+# Project Structure
+  * runstream.ipynb: Jupyter Notebook for data preprocessing and model training.
+  * streamlit.py: Streamlit script for the web application.
+  * my_recommendation_model.keras: Saved Keras model.
+  * requirements.txt: List of dependencies required for the project.
